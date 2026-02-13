@@ -1,0 +1,9 @@
+name: running my second jobs:
+on: push
+jobs:
+  task: 
+     runs-on: ubuntu-latest
+     steps:
+         - run echo "helllo world"
+         -  run echo "hi"
+     
