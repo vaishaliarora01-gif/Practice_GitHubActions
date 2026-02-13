@@ -4,6 +4,6 @@ jobs:
   task: 
      runs-on: ubuntu-latest
      steps:
-         - run echo "helllo world"
-         -  run echo "hi"
+         - run: echo "helllo world"
+         -  run: echo "hi"
      
