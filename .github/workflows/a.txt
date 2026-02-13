@@ -1,8 +1,8 @@
-name: second process
+name: create b.txt
 on: push
 jobs:
   first:
      runs-on: ubuntu-latest
      steps:
         - run: echo "hi 2"
-        - run: touch a.txt
+        - run: touch b.txt
