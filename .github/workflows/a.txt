@@ -1,0 +1,8 @@
+name: second process
+on: push
+jobs:
+  first:
+     runs-on: ubuntu-latest
+     steps:
+        - run: echo "hi 2"
+        - run: touch a.txt
