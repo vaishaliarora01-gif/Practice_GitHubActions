@@ -1,0 +1,8 @@
+name: running one file
+on: push
+jobs:
+   task:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "hello"
+        - run: echo "hi"
